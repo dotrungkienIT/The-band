@@ -1,0 +1,93 @@
+/*Mobile Plus*/
+@media (max-width : 46.25em){
+    .s-col-1{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    .s-full-width{
+        width: 100% !important;
+    }
+    #header{
+        /*Sử dụng để ẩn các con*/
+        overflow: hidden;
+    }
+    #header .header-search{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav > li >a{
+        display: block;
+        padding: 2px 24px;
+    }
+    #nav .subnav {
+        position : initial;
+    }
+
+    #nav .subnav li  a {
+        background-color: #333;
+        color: #fff;
+        padding: 5px 42px;
+    }
+    #content .member-list .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .member-list .member-item .member-avatar{
+        width: 60%;
+    }
+    .places-item{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    #contact .contact-form{
+        margin-top: 32px;
+    }
+}
+/*Table and Mobile*/
+
+@media (max-width : 63.9375em){
+    .btn{
+        padding: 16px 16px;
+    }
+    #nav .subnav li a {
+        padding: 5px 50px 5px 16px;
+    }
+
+    #content .contact-info {
+        line-height: 2;
+    }
+    
+    #content .contact-form .form-control{
+        padding: 15px;
+    }
+
+    #footer .social-list a {
+        font-size: 28px;
+        margin: 8px;
+    }
+    #footer .copyright {
+        padding-top: 16px;
+    }
+    .contact-submit{
+        font-size: 16px;
+    }
+}
